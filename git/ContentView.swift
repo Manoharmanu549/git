@@ -15,6 +15,7 @@ struct ContentView: View {
                 self.isPresented = true
             }.sheet(isPresented: $isPresented){
                 Text("This is real model")
+                Text("Sample")
             }
             SwiftUIView()
         }
